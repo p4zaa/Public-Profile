@@ -127,7 +127,7 @@ The main objective of the competition was to build a multi-objective link predic
 
 <table>
 <tr>
-<td style="text-align:center"> Graph data stored in HeteroData class </td> <td style="text-align:center"> Using RandomLinkSplit to split the data in link-level </td>
+<td> Graph data stored in HeteroData class </td> <td> Using RandomLinkSplit to split the data in link-level </td>
 </tr>
 <tr>
 <td>
@@ -175,3 +175,6 @@ To further improve the model's accuracy and efficiency, I plan to optimize it an
 </p>
 
 ---
+```python
+Working on it!
+```
