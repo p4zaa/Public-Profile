@@ -1,8 +1,18 @@
 # Pathompong Muangthong
-**Phone:** (+66)062-063-6060 <br/>
-**LinkedIn:** [linkedin.com/in/pathompong-muangthong](linkedin.com/in/pathompong-muangthong) <br/>
-**Email:** [pathompong.workspace@gmail.com](mailto:pathompong.workspace@gmail.com) <br/>
-**GitHub:** [github.com/p4zaa](github.com/p4zaa) <br/>
+**Phone:** `(+66)062-063-6060` <br/>
+**Email:** `pathompong.workspace@gmail.com` <br/>
+
+<p align="left">
+
+<a href="mailto:pathompong.workspace@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-red?style=square&logo=gmail&logoColor=white">
+</a>
+<a href="https://www.linkedin.com/in/pathompong-muangthong/">
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=square&logo=linkedin">
+</a>
+<a href="https://github.com/p4zaa/Social-Recommendation-Based-on-Weighted-Graph">
+    <img src="https://img.shields.io/badge/GitHub-@p4zaa-2A9DF4?style=square&logo=github">
+</a>  
 
 ## Introduction
 <img align="left" src="https://cdn-icons-png.flaticon.com/512/5463/5463661.png" width="15%"/>
