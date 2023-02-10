@@ -65,7 +65,7 @@ As the sole participant in this project, I took on a range of responsibilities, 
 |:-----------:|:-----------:|
 |**User Influence Graph**<br/>(User-User)|**User Interest Graph**<br/>(User-Item)|
 
-#### Basedline Model Architecture:
+#### Baseline Model Architecture:
 | <img align="center" src="img/DiffNet++ Architecture.png" width="80%"/> |
 |:-----------:|
 |**The Diagram of DiffNet++ Model Architecture by Pathompong Muangthong**|
