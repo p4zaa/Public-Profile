@@ -46,7 +46,7 @@ I am a computer science graduate with a passion for machine learning and deep le
 <p align="left">
 
 <a href="https://github.com/p4zaa/Social-Recommendation-Based-on-Weighted-Graph">
-    <img src="https://img.shields.io/badge/-GitHub-black?style=square&logo=github">
+    <img src="https://img.shields.io/badge/-GitHub-28231D?style=square&logo=github">
 </a>  
 
 <p align="justify">
@@ -96,4 +96,82 @@ As the sole participant in this project, I took on a range of responsibilities, 
 Although my proposed model showed promising results, it did not outperform the baseline model as expected. Further improvements and optimization are needed to achieve better performance. This project demonstrates my expertise in graph neural networks, deep learning, and recommendation systems, as well as my ability to work independently and lead a research project from start to finish.
 </p>
   
+---
+> December 2022 - January 2023
+### OTTO Multi-Objective Recommender System using Link Prediction
+**Keywords:** `Large-scale e-commerce data` `Graph Neural Network` `Link Prediction` <br/>
+**Tools/Frameworks:** `Python` `PyTorch` `PyTorch Geometric` `Pandas` `Polars` <br/>
+**Dataset:** [OTTO Recommender Systems Dataset]([https://www.yelp.com/dataset](https://github.com/otto-de/recsys-dataset)) <br/>
+
+<p align="left">
+
+<a href="https://github.com/p4zaa/OTTO-Multi-Objective-Recommender-System">
+    <img src="https://img.shields.io/badge/-GitHub-28231D?style=square&logo=github">
+</a>  
+    
+<p align="justify">
+In this project, I participated in the OTTO Kaggle competition to develop a Multi-Objective Recommender System using a Link Prediction Approach. The dataset used in the competition consisted of 12 million real-world user sessions, 220 million events, and 1.8 million unique articles in the catalog. <br/>
+</p>
+
+<p align="justify">
+I took the initiative to study and work on this project independently, which allowed me to expand my knowledge and skills in the field of machine learning and data processing. I utilized the PyTorch framework and the PyTorch Geometric library to implement Graph Neural Networks. Furthermore, I optimized the code and model to run efficiently on a CUDA GPU and used Polars as the DataFrame library for maximum GPU and memory efficiency. <br/>
+</p>
+
+<p align="justify">
+The main objective of the competition was to build a multi-objective link prediction on a large-scale e-commerce heterogeneous graph. I utilized graph neural networks and link prediction techniques to recommend the most relevant articles to users based on their preferences and past behaviors. <br/>
+</p>
+
+| <img align="center" src="img/fig8.png" width="80%"/> |
+|:-----------:|
+|An illustration of the heterogeneous graph (left) which consists of multiple node and edge types and multi-objective recommendations (right) which takes prediction on multiple event types and items.|
+
+<table>
+<tr>
+<td style="text-align:center"> Graph data stored in HeteroData class </td> <td style="text-align:center"> Using RandomLinkSplit to split the data in link-level </td>
+</tr>
+<tr>
+<td>
+
+```python
+>>> data
+HeteroData(
+  session={
+    num_nodes=14571582,
+    x=[14571582, 32]
+  },
+  aid={ x=[1855603, 32] },
+  (session, event, aid)={
+    edge_index=[2, 223644219],
+    edge_label=[223644219]
+  },
+  (aid, rev_event, session)={ edge_index=[2, 223644219] }
+)
+```
+
+</td>
+<td>
+    
+```python
+# Perform a link-level split into training, validation, and test edges:
+train_data, val_data, test_data = T.RandomLinkSplit(
+    num_val=0.1,
+    num_test=0.1,
+    neg_sampling_ratio=0.0,
+    edge_types=[('session', 'event', 'aid')],
+    rev_edge_types=[('aid', 'rev_event', 'session')],
+)(data)
+```
+</td>
+</tr>
+</table>
+
+#### Result:
+    - Achieved a Recall@20 score of 0.486 for my custom link prediction model.
+    - Achieved a Recall@20 score of 0.511 for my Node2Vec model.
+    - Both models indicate a need for improvement and optimization.
+
+<p align="justify">
+To further improve the model's accuracy and efficiency, I plan to optimize it and explore alternative approaches. I am also interested in exploring a similar implementation using TensorFlow to expand my knowledge of different frameworks. This project has opened up new avenues for me to continue developing my expertise in graph-based models and recommender systems.
+</p>
+
 ---
