@@ -26,15 +26,15 @@ I am a computer science graduate with a passion for machine learning and deep le
 | | |
 | --- | --- |
 | **Programming Languages** | `Python` `SQL` `Java` |
-| **Machine Learning Frameworks/Libraries** | `PyTorch` `TensorFlow` `PyTorch Geometric` |
-| **Data Visualization** | `Pandas` `Matplotlib` |
+| **Machine Learning Frameworks/Libraries** | `PyTorch` `TensorFlow` `PyTorch Geometric` `Gensim` |
+| **Data Visualization** | `Pandas` `Matplotlib` `Seaborn` `Plotly` `NetworkX` |
 
 ## Education
 > May 2018 - August 2022
 ### Bachelor of Science in Computer Science
 *Chulalongkorn University, Bangkok* <br/>
 
-**Relevant Coursework:** Hands-On Machine Learning, Mathematical Perspectives on Machine Learning Algorithms, Artificial Intelligence and Expert Systems, Database Systems, Linear Algebra, Software Engineering Methodology and Development <br/>
+**Relevant Coursework:** `Hands-On Machine Learning`, `Mathematical Perspectives on Machine Learning Algorithms`, `Artificial Intelligence and Expert Systems`, `Database Systems`, `Linear Algebra`, `Software Engineering Methodology and Development` <br/>
 
 ## Projects
 > December 2020 - May 2022
@@ -200,9 +200,9 @@ The Chaloklum Bookshop in Koh Phangan, Thailand sells over 4000+ second-hand boo
 |:----------:|:----------:|
 |An illustration show that I can scrap book details from ISBN number.|A screenshot of the books searching page made on Notion.|
 
-|<img align="center" src="img/fig12.png" width="70%"/>|
-|:----------:|
-|A screenshot of the books searching site traffic from November 2022 - February 2023|
+|<img align="center" src="img/fig12.png" width="100%"/>|<img align="center" src="img/fig18.png" width="100%"/>|
+|:----------:|:----------:|
+|A screenshot of the books searching site traffic from November 2022 - February 2023|A screenshot of Google Bussiness performance show that the engagement improved compared to the same period last year.|
 
 
 |<img align="center" src="img/fig13.png" width="100%"/>|<img align="center" src="img/fig15.png" width="100%"/>|<img align="center" src="img/fig14.png" width="100%"/>|
