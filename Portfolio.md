@@ -175,6 +175,54 @@ To further improve the model's accuracy and efficiency, I plan to optimize it an
 </p>
 
 ---
+> August 2022 - September 2022
+### A Local Bookstore Data Collecting and Scraping
+**Keywords:** `Web-Scraping` `Data Collecting` `Data Visualization` <br/>
+**Tools/Frameworks:** `Python` `Pandas` `Matplotlib` `BeautifulSoup` <br/>
+**Dataset:** [My Dataset Provided on Kaggle](https://www.kaggle.com/datasets/pathompongmuangthong/chaloklum-bookshop-dataset) <br/>
+
+<p align="left">
+
+<a href="https://github.com/p4zaa/Chaloklum-Books">
+    <img src="https://img.shields.io/badge/-GitHub-28231D?style=square&logo=github">
+</a>  
+    
+<p align="justify">
+The Chaloklum Bookshop in Koh Phangan, Thailand sells over 4000+ second-hand books in multiple languages such as English, German, and French. The bookstore has been operating for many years but never recorded any information about the books. To address this issue, I took the initiative to gather information by scanning the books' barcodes using my smartphone and extracting their ISBNs. The ISBNs were then utilized to retrieve information about the books from sources such as Google Books API and Goodreads, utilizing Python and several libraries. The collected data underwent preprocessing and was provided as a dataset on Kaggle, accompanied by simple data visualizations for better understanding. The final dataset comprises information on approximately 4000 books. With this information, I was able to create a book search website for customers to easily find the books they are looking for.
+ <br/>
+</p>
+
+| Workflow |
+|:----------:|
+|<img align="center" src="img/fig10.png" width="100%"/>|
+
+|<img align="center" src="img/fig11.png" width="100%"/>|<img align="center" src="img/fig16.png" width="100%"/>|
+|:----------:|:----------:|
+|An illustration show that I can scrap book details from ISBN number.|A screenshot of the books searching page made on Notion.|
+
+|<img align="center" src="img/fig12.png" width="70%"/>|
+|:----------:|
+|A screenshot of the books searching site traffic from November 2022 - February 2023|
+
+
+|<img align="center" src="img/fig13.png" width="100%"/>|<img align="center" src="img/fig15.png" width="100%"/>|<img align="center" src="img/fig14.png" width="100%"/>|
+|:----------:|:----------:|:----------:|
+
+<p align="center">
+An example of bookstore data visualizations provided on Kaggle.
+</p>
+    
+#### Achievements
+    * Providing bookstore searching sites for customers.
+    * Providing bookstore dataset on Kaggle
+    * Visualizing some statistics of the books in the store.
+    * Increase business engagement on Google Search.
+
+<p align='justify'>
+<b>Future Work:</b> Integration of machine learning algorithms to provide a more personalized book recommendation system for customers. Additionally, the project can be integrated with the bookstore management system, allowing for seamless tracking of customer behavior and preferences, further improving the accuracy and relevance of book recommendations.
+</p>
+
+---
 ```python
 Working on it!
 ```
